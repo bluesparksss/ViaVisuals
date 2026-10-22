@@ -1,0 +1,1 @@
+{"id":"SnifferAnimation.BABY_TRANSFORM","length":0.0,"looping":false,"bones":{"head":[{"target":"scale","keyframes":[{"t":0.0,"pre":[0.2,0.2,0.2],"post":[0.2,0.2,0.2],"interp":"linear"}]},{"target":"position","keyframes":[{"t":0.0,"pre":[0.0,-1.0,1.0],"post":[0.0,-1.0,1.0],"interp":"linear"}]}]}}

@@ -1,0 +1,33 @@
+plugins {
+    id 'groovy-gradle-plugin'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation 'com.google.code.gson:gson:2.11.0'
+}
+
+gradlePlugin {
+    plugins {
+        viaVisualsResourcePackPlugin {
+            id = 'dev.bluesparksss.viavisuals.resource-pack'
+            implementationClass = 'dev.bluesparksss.viavisuals.build.ViaVisualsResourcePackPlugin'
+        }
+    }
+}

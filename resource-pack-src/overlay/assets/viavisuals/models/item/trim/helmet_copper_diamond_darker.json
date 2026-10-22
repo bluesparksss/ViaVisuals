@@ -1,0 +1,7 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "viavisuals:item/trim/base_copper_helmet",
+  "layer1": "viavisuals:item/trim/helmet_diamond_darker"
+ }
+}

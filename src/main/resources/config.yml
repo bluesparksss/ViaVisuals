@@ -1,0 +1,48 @@
+# The resource pack is sent automatically; 1.17+ clients that decline it are disconnected.
+
+items:
+  # Trimmed and copper armor for 1.17 - 1.21.1 clients (drawn by the pack's armor shader).
+  armor-trims: true
+
+locator-bar:
+  # The 1.21.6+ locator bar for older clients, drawn over the experience bar.
+  enabled: true
+  # Field of view assumed for the waypoint up/down arrows.
+  assumed-fov: 70
+
+entities:
+  # interaction: exact hitboxes of new mobs (1.19.4+ clients). living: hitbox of the stand-in mob.
+  hitbox-mode: interaction
+  name-tags: true
+
+# Animated mobs: new mobs walk, look around and play their animations. false: static models, cheaper.
+animated-mobs: true
+# Also animate them for clients below 1.19.4 (about 1.7x the packets).
+animated-mobs-legacy: true
+
+animation:
+  # Mobs farther away than this (blocks) show the static model.
+  range: 32
+
+client-detection:
+  # Use the real client version reported by a Via proxy (Velocity/BungeeCord) or a Via client mod.
+  proxy-details: true
+  mod-details: true
+
+legacy-height:
+  # Lets 1.16 clients see below y 0 and above y 255. F3 coordinates are shifted while they do.
+  enabled: true
+
+blocks:
+  # Range (blocks) of new blocks drawn by entities; 0 = unlimited. Lower it on busy servers.
+  display-view-distance: 48
+  # Don't spawn those entities when blocks hide them.
+  occlusion-culling: true
+
+mechanics:
+  wind-charge:
+    # Wind charge visuals and knockback for clients below 1.21.
+    enabled: true
+  ender-pearl-momentum:
+    # Keep the thrower's momentum after a pearl teleport for clients below 1.21.
+    enabled: true

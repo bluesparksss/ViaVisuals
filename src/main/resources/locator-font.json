@@ -1,0 +1,131 @@
+{
+ "glyphs": {
+  "background": {
+   "char": "\ue000",
+   "width": 182,
+   "height": 5,
+   "advance": 183
+  },
+  "dot_bowtie": {
+   "char": "\ue001",
+   "width": 9,
+   "height": 9,
+   "advance": 10
+  },
+  "dot_default_0": {
+   "char": "\ue002",
+   "width": 9,
+   "height": 9,
+   "advance": 9
+  },
+  "dot_default_1": {
+   "char": "\ue003",
+   "width": 9,
+   "height": 9,
+   "advance": 9
+  },
+  "dot_default_2": {
+   "char": "\ue004",
+   "width": 9,
+   "height": 9,
+   "advance": 8
+  },
+  "dot_default_3": {
+   "char": "\ue005",
+   "width": 9,
+   "height": 9,
+   "advance": 7
+  },
+  "arrow_up_0": {
+   "char": "\ue006",
+   "width": 7,
+   "height": 5,
+   "advance": 8
+  },
+  "arrow_up_1": {
+   "char": "\ue007",
+   "width": 7,
+   "height": 5,
+   "advance": 8
+  },
+  "arrow_down_0": {
+   "char": "\ue008",
+   "width": 7,
+   "height": 5,
+   "advance": 8
+  },
+  "arrow_down_1": {
+   "char": "\ue009",
+   "width": 7,
+   "height": 5,
+   "advance": 8
+  }
+ },
+ "digits": {
+  "base": 57392,
+  "side": 57440,
+  "up": 57408,
+  "down": 57424,
+  "advance": 6
+ },
+ "spacers": {
+  "1": "\ue100",
+  "-1": "\ue110",
+  "2": "\ue101",
+  "-2": "\ue111",
+  "4": "\ue102",
+  "-4": "\ue112",
+  "8": "\ue103",
+  "-8": "\ue113",
+  "16": "\ue104",
+  "-16": "\ue114",
+  "32": "\ue105",
+  "-32": "\ue115",
+  "64": "\ue106",
+  "-64": "\ue116",
+  "128": "\ue107",
+  "-128": "\ue117",
+  "256": "\ue108",
+  "-256": "\ue118",
+  "512": "\ue109",
+  "-512": "\ue119"
+ },
+ "styles": {
+  "bowtie": {
+   "near": 64,
+   "far": 332,
+   "sprites": [
+    "bowtie",
+    "default_0",
+    "default_1",
+    "default_2",
+    "default_3"
+   ]
+  },
+  "default": {
+   "near": 128,
+   "far": 332,
+   "sprites": [
+    "default_0",
+    "default_1",
+    "default_2",
+    "default_3"
+   ]
+  }
+ },
+ "arrowAnimation": [
+  {
+   "index": 0,
+   "time": 10
+  },
+  {
+   "index": 1,
+   "time": 4
+  }
+ ],
+ "layout": {
+  "barWidth": 182,
+  "dotSize": 9,
+  "arrowWidth": 7
+ }
+}

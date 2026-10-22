@@ -1,0 +1,1879 @@
+{
+ "icons": [
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950000,
+   "model": "viavisuals:item/trim/helmet_iron_amethyst"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950001,
+   "model": "viavisuals:item/trim/helmet_iron_copper"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950002,
+   "model": "viavisuals:item/trim/helmet_iron_diamond"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950003,
+   "model": "viavisuals:item/trim/helmet_iron_emerald"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950004,
+   "model": "viavisuals:item/trim/helmet_iron_gold"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950005,
+   "model": "viavisuals:item/trim/helmet_iron_iron"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950006,
+   "model": "viavisuals:item/trim/helmet_iron_lapis"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950007,
+   "model": "viavisuals:item/trim/helmet_iron_netherite"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950008,
+   "model": "viavisuals:item/trim/helmet_iron_quartz"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950009,
+   "model": "viavisuals:item/trim/helmet_iron_redstone"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950010,
+   "model": "viavisuals:item/trim/helmet_iron_resin"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950011,
+   "model": "viavisuals:item/trim/helmet_iron_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950012,
+   "model": "viavisuals:item/trim/helmet_iron_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950013,
+   "model": "viavisuals:item/trim/helmet_iron_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950014,
+   "model": "viavisuals:item/trim/helmet_iron_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950016,
+   "model": "viavisuals:item/trim/helmet_gold_amethyst"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950017,
+   "model": "viavisuals:item/trim/helmet_gold_copper"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950018,
+   "model": "viavisuals:item/trim/helmet_gold_diamond"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950019,
+   "model": "viavisuals:item/trim/helmet_gold_emerald"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950020,
+   "model": "viavisuals:item/trim/helmet_gold_gold"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950021,
+   "model": "viavisuals:item/trim/helmet_gold_iron"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950022,
+   "model": "viavisuals:item/trim/helmet_gold_lapis"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950023,
+   "model": "viavisuals:item/trim/helmet_gold_netherite"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950024,
+   "model": "viavisuals:item/trim/helmet_gold_quartz"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950025,
+   "model": "viavisuals:item/trim/helmet_gold_redstone"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950026,
+   "model": "viavisuals:item/trim/helmet_gold_resin"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950027,
+   "model": "viavisuals:item/trim/helmet_gold_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950028,
+   "model": "viavisuals:item/trim/helmet_gold_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950029,
+   "model": "viavisuals:item/trim/helmet_gold_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950030,
+   "model": "viavisuals:item/trim/helmet_gold_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950032,
+   "model": "viavisuals:item/trim/helmet_diamond_amethyst"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950033,
+   "model": "viavisuals:item/trim/helmet_diamond_copper"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950034,
+   "model": "viavisuals:item/trim/helmet_diamond_diamond"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950035,
+   "model": "viavisuals:item/trim/helmet_diamond_emerald"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950036,
+   "model": "viavisuals:item/trim/helmet_diamond_gold"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950037,
+   "model": "viavisuals:item/trim/helmet_diamond_iron"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950038,
+   "model": "viavisuals:item/trim/helmet_diamond_lapis"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950039,
+   "model": "viavisuals:item/trim/helmet_diamond_netherite"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950040,
+   "model": "viavisuals:item/trim/helmet_diamond_quartz"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950041,
+   "model": "viavisuals:item/trim/helmet_diamond_redstone"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950042,
+   "model": "viavisuals:item/trim/helmet_diamond_resin"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950043,
+   "model": "viavisuals:item/trim/helmet_diamond_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950044,
+   "model": "viavisuals:item/trim/helmet_diamond_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950045,
+   "model": "viavisuals:item/trim/helmet_diamond_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950046,
+   "model": "viavisuals:item/trim/helmet_diamond_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950048,
+   "model": "viavisuals:item/trim/helmet_netherite_amethyst"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950049,
+   "model": "viavisuals:item/trim/helmet_netherite_copper"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950050,
+   "model": "viavisuals:item/trim/helmet_netherite_diamond"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950051,
+   "model": "viavisuals:item/trim/helmet_netherite_emerald"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950052,
+   "model": "viavisuals:item/trim/helmet_netherite_gold"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950053,
+   "model": "viavisuals:item/trim/helmet_netherite_iron"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950054,
+   "model": "viavisuals:item/trim/helmet_netherite_lapis"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950055,
+   "model": "viavisuals:item/trim/helmet_netherite_netherite"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950056,
+   "model": "viavisuals:item/trim/helmet_netherite_quartz"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950057,
+   "model": "viavisuals:item/trim/helmet_netherite_redstone"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950058,
+   "model": "viavisuals:item/trim/helmet_netherite_resin"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950059,
+   "model": "viavisuals:item/trim/helmet_netherite_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950060,
+   "model": "viavisuals:item/trim/helmet_netherite_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950061,
+   "model": "viavisuals:item/trim/helmet_netherite_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950062,
+   "model": "viavisuals:item/trim/helmet_netherite_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950064,
+   "model": "viavisuals:item/trim/helmet_chainmail_amethyst"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950065,
+   "model": "viavisuals:item/trim/helmet_chainmail_copper"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950066,
+   "model": "viavisuals:item/trim/helmet_chainmail_diamond"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950067,
+   "model": "viavisuals:item/trim/helmet_chainmail_emerald"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950068,
+   "model": "viavisuals:item/trim/helmet_chainmail_gold"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950069,
+   "model": "viavisuals:item/trim/helmet_chainmail_iron"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950070,
+   "model": "viavisuals:item/trim/helmet_chainmail_lapis"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950071,
+   "model": "viavisuals:item/trim/helmet_chainmail_netherite"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950072,
+   "model": "viavisuals:item/trim/helmet_chainmail_quartz"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950073,
+   "model": "viavisuals:item/trim/helmet_chainmail_redstone"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950074,
+   "model": "viavisuals:item/trim/helmet_chainmail_resin"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950075,
+   "model": "viavisuals:item/trim/helmet_chainmail_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950076,
+   "model": "viavisuals:item/trim/helmet_chainmail_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950077,
+   "model": "viavisuals:item/trim/helmet_chainmail_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950078,
+   "model": "viavisuals:item/trim/helmet_chainmail_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950080,
+   "model": "viavisuals:item/trim/helmet_turtle_amethyst"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950081,
+   "model": "viavisuals:item/trim/helmet_turtle_copper"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950082,
+   "model": "viavisuals:item/trim/helmet_turtle_diamond"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950083,
+   "model": "viavisuals:item/trim/helmet_turtle_emerald"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950084,
+   "model": "viavisuals:item/trim/helmet_turtle_gold"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950085,
+   "model": "viavisuals:item/trim/helmet_turtle_iron"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950086,
+   "model": "viavisuals:item/trim/helmet_turtle_lapis"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950087,
+   "model": "viavisuals:item/trim/helmet_turtle_netherite"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950088,
+   "model": "viavisuals:item/trim/helmet_turtle_quartz"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950089,
+   "model": "viavisuals:item/trim/helmet_turtle_redstone"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950090,
+   "model": "viavisuals:item/trim/helmet_turtle_resin"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950091,
+   "model": "viavisuals:item/trim/helmet_turtle_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950092,
+   "model": "viavisuals:item/trim/helmet_turtle_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950093,
+   "model": "viavisuals:item/trim/helmet_turtle_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950094,
+   "model": "viavisuals:item/trim/helmet_turtle_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950096,
+   "model": "viavisuals:item/trim/helmet_copper_amethyst"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950097,
+   "model": "viavisuals:item/trim/helmet_copper_copper"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950098,
+   "model": "viavisuals:item/trim/helmet_copper_diamond"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950099,
+   "model": "viavisuals:item/trim/helmet_copper_emerald"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950100,
+   "model": "viavisuals:item/trim/helmet_copper_gold"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950101,
+   "model": "viavisuals:item/trim/helmet_copper_iron"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950102,
+   "model": "viavisuals:item/trim/helmet_copper_lapis"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950103,
+   "model": "viavisuals:item/trim/helmet_copper_netherite"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950104,
+   "model": "viavisuals:item/trim/helmet_copper_quartz"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950105,
+   "model": "viavisuals:item/trim/helmet_copper_redstone"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950106,
+   "model": "viavisuals:item/trim/helmet_copper_resin"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950107,
+   "model": "viavisuals:item/trim/helmet_copper_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950108,
+   "model": "viavisuals:item/trim/helmet_copper_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950109,
+   "model": "viavisuals:item/trim/helmet_copper_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_HELMET",
+   "cmd": 950110,
+   "model": "viavisuals:item/trim/helmet_copper_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950112,
+   "model": "viavisuals:item/trim/chestplate_iron_amethyst"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950113,
+   "model": "viavisuals:item/trim/chestplate_iron_copper"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950114,
+   "model": "viavisuals:item/trim/chestplate_iron_diamond"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950115,
+   "model": "viavisuals:item/trim/chestplate_iron_emerald"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950116,
+   "model": "viavisuals:item/trim/chestplate_iron_gold"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950117,
+   "model": "viavisuals:item/trim/chestplate_iron_iron"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950118,
+   "model": "viavisuals:item/trim/chestplate_iron_lapis"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950119,
+   "model": "viavisuals:item/trim/chestplate_iron_netherite"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950120,
+   "model": "viavisuals:item/trim/chestplate_iron_quartz"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950121,
+   "model": "viavisuals:item/trim/chestplate_iron_redstone"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950122,
+   "model": "viavisuals:item/trim/chestplate_iron_resin"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950123,
+   "model": "viavisuals:item/trim/chestplate_iron_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950124,
+   "model": "viavisuals:item/trim/chestplate_iron_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950125,
+   "model": "viavisuals:item/trim/chestplate_iron_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950126,
+   "model": "viavisuals:item/trim/chestplate_iron_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950128,
+   "model": "viavisuals:item/trim/chestplate_gold_amethyst"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950129,
+   "model": "viavisuals:item/trim/chestplate_gold_copper"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950130,
+   "model": "viavisuals:item/trim/chestplate_gold_diamond"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950131,
+   "model": "viavisuals:item/trim/chestplate_gold_emerald"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950132,
+   "model": "viavisuals:item/trim/chestplate_gold_gold"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950133,
+   "model": "viavisuals:item/trim/chestplate_gold_iron"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950134,
+   "model": "viavisuals:item/trim/chestplate_gold_lapis"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950135,
+   "model": "viavisuals:item/trim/chestplate_gold_netherite"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950136,
+   "model": "viavisuals:item/trim/chestplate_gold_quartz"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950137,
+   "model": "viavisuals:item/trim/chestplate_gold_redstone"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950138,
+   "model": "viavisuals:item/trim/chestplate_gold_resin"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950139,
+   "model": "viavisuals:item/trim/chestplate_gold_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950140,
+   "model": "viavisuals:item/trim/chestplate_gold_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950141,
+   "model": "viavisuals:item/trim/chestplate_gold_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950142,
+   "model": "viavisuals:item/trim/chestplate_gold_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950144,
+   "model": "viavisuals:item/trim/chestplate_diamond_amethyst"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950145,
+   "model": "viavisuals:item/trim/chestplate_diamond_copper"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950146,
+   "model": "viavisuals:item/trim/chestplate_diamond_diamond"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950147,
+   "model": "viavisuals:item/trim/chestplate_diamond_emerald"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950148,
+   "model": "viavisuals:item/trim/chestplate_diamond_gold"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950149,
+   "model": "viavisuals:item/trim/chestplate_diamond_iron"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950150,
+   "model": "viavisuals:item/trim/chestplate_diamond_lapis"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950151,
+   "model": "viavisuals:item/trim/chestplate_diamond_netherite"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950152,
+   "model": "viavisuals:item/trim/chestplate_diamond_quartz"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950153,
+   "model": "viavisuals:item/trim/chestplate_diamond_redstone"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950154,
+   "model": "viavisuals:item/trim/chestplate_diamond_resin"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950155,
+   "model": "viavisuals:item/trim/chestplate_diamond_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950156,
+   "model": "viavisuals:item/trim/chestplate_diamond_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950157,
+   "model": "viavisuals:item/trim/chestplate_diamond_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950158,
+   "model": "viavisuals:item/trim/chestplate_diamond_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950160,
+   "model": "viavisuals:item/trim/chestplate_netherite_amethyst"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950161,
+   "model": "viavisuals:item/trim/chestplate_netherite_copper"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950162,
+   "model": "viavisuals:item/trim/chestplate_netherite_diamond"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950163,
+   "model": "viavisuals:item/trim/chestplate_netherite_emerald"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950164,
+   "model": "viavisuals:item/trim/chestplate_netherite_gold"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950165,
+   "model": "viavisuals:item/trim/chestplate_netherite_iron"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950166,
+   "model": "viavisuals:item/trim/chestplate_netherite_lapis"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950167,
+   "model": "viavisuals:item/trim/chestplate_netherite_netherite"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950168,
+   "model": "viavisuals:item/trim/chestplate_netherite_quartz"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950169,
+   "model": "viavisuals:item/trim/chestplate_netherite_redstone"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950170,
+   "model": "viavisuals:item/trim/chestplate_netherite_resin"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950171,
+   "model": "viavisuals:item/trim/chestplate_netherite_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950172,
+   "model": "viavisuals:item/trim/chestplate_netherite_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950173,
+   "model": "viavisuals:item/trim/chestplate_netherite_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950174,
+   "model": "viavisuals:item/trim/chestplate_netherite_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950176,
+   "model": "viavisuals:item/trim/chestplate_chainmail_amethyst"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950177,
+   "model": "viavisuals:item/trim/chestplate_chainmail_copper"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950178,
+   "model": "viavisuals:item/trim/chestplate_chainmail_diamond"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950179,
+   "model": "viavisuals:item/trim/chestplate_chainmail_emerald"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950180,
+   "model": "viavisuals:item/trim/chestplate_chainmail_gold"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950181,
+   "model": "viavisuals:item/trim/chestplate_chainmail_iron"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950182,
+   "model": "viavisuals:item/trim/chestplate_chainmail_lapis"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950183,
+   "model": "viavisuals:item/trim/chestplate_chainmail_netherite"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950184,
+   "model": "viavisuals:item/trim/chestplate_chainmail_quartz"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950185,
+   "model": "viavisuals:item/trim/chestplate_chainmail_redstone"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950186,
+   "model": "viavisuals:item/trim/chestplate_chainmail_resin"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950187,
+   "model": "viavisuals:item/trim/chestplate_chainmail_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950188,
+   "model": "viavisuals:item/trim/chestplate_chainmail_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950189,
+   "model": "viavisuals:item/trim/chestplate_chainmail_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950190,
+   "model": "viavisuals:item/trim/chestplate_chainmail_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950208,
+   "model": "viavisuals:item/trim/chestplate_copper_amethyst"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950209,
+   "model": "viavisuals:item/trim/chestplate_copper_copper"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950210,
+   "model": "viavisuals:item/trim/chestplate_copper_diamond"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950211,
+   "model": "viavisuals:item/trim/chestplate_copper_emerald"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950212,
+   "model": "viavisuals:item/trim/chestplate_copper_gold"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950213,
+   "model": "viavisuals:item/trim/chestplate_copper_iron"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950214,
+   "model": "viavisuals:item/trim/chestplate_copper_lapis"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950215,
+   "model": "viavisuals:item/trim/chestplate_copper_netherite"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950216,
+   "model": "viavisuals:item/trim/chestplate_copper_quartz"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950217,
+   "model": "viavisuals:item/trim/chestplate_copper_redstone"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950218,
+   "model": "viavisuals:item/trim/chestplate_copper_resin"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950219,
+   "model": "viavisuals:item/trim/chestplate_copper_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950220,
+   "model": "viavisuals:item/trim/chestplate_copper_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950221,
+   "model": "viavisuals:item/trim/chestplate_copper_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_CHESTPLATE",
+   "cmd": 950222,
+   "model": "viavisuals:item/trim/chestplate_copper_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950224,
+   "model": "viavisuals:item/trim/leggings_iron_amethyst"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950225,
+   "model": "viavisuals:item/trim/leggings_iron_copper"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950226,
+   "model": "viavisuals:item/trim/leggings_iron_diamond"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950227,
+   "model": "viavisuals:item/trim/leggings_iron_emerald"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950228,
+   "model": "viavisuals:item/trim/leggings_iron_gold"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950229,
+   "model": "viavisuals:item/trim/leggings_iron_iron"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950230,
+   "model": "viavisuals:item/trim/leggings_iron_lapis"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950231,
+   "model": "viavisuals:item/trim/leggings_iron_netherite"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950232,
+   "model": "viavisuals:item/trim/leggings_iron_quartz"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950233,
+   "model": "viavisuals:item/trim/leggings_iron_redstone"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950234,
+   "model": "viavisuals:item/trim/leggings_iron_resin"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950235,
+   "model": "viavisuals:item/trim/leggings_iron_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950236,
+   "model": "viavisuals:item/trim/leggings_iron_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950237,
+   "model": "viavisuals:item/trim/leggings_iron_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950238,
+   "model": "viavisuals:item/trim/leggings_iron_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950240,
+   "model": "viavisuals:item/trim/leggings_gold_amethyst"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950241,
+   "model": "viavisuals:item/trim/leggings_gold_copper"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950242,
+   "model": "viavisuals:item/trim/leggings_gold_diamond"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950243,
+   "model": "viavisuals:item/trim/leggings_gold_emerald"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950244,
+   "model": "viavisuals:item/trim/leggings_gold_gold"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950245,
+   "model": "viavisuals:item/trim/leggings_gold_iron"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950246,
+   "model": "viavisuals:item/trim/leggings_gold_lapis"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950247,
+   "model": "viavisuals:item/trim/leggings_gold_netherite"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950248,
+   "model": "viavisuals:item/trim/leggings_gold_quartz"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950249,
+   "model": "viavisuals:item/trim/leggings_gold_redstone"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950250,
+   "model": "viavisuals:item/trim/leggings_gold_resin"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950251,
+   "model": "viavisuals:item/trim/leggings_gold_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950252,
+   "model": "viavisuals:item/trim/leggings_gold_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950253,
+   "model": "viavisuals:item/trim/leggings_gold_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950254,
+   "model": "viavisuals:item/trim/leggings_gold_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950256,
+   "model": "viavisuals:item/trim/leggings_diamond_amethyst"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950257,
+   "model": "viavisuals:item/trim/leggings_diamond_copper"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950258,
+   "model": "viavisuals:item/trim/leggings_diamond_diamond"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950259,
+   "model": "viavisuals:item/trim/leggings_diamond_emerald"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950260,
+   "model": "viavisuals:item/trim/leggings_diamond_gold"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950261,
+   "model": "viavisuals:item/trim/leggings_diamond_iron"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950262,
+   "model": "viavisuals:item/trim/leggings_diamond_lapis"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950263,
+   "model": "viavisuals:item/trim/leggings_diamond_netherite"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950264,
+   "model": "viavisuals:item/trim/leggings_diamond_quartz"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950265,
+   "model": "viavisuals:item/trim/leggings_diamond_redstone"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950266,
+   "model": "viavisuals:item/trim/leggings_diamond_resin"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950267,
+   "model": "viavisuals:item/trim/leggings_diamond_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950268,
+   "model": "viavisuals:item/trim/leggings_diamond_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950269,
+   "model": "viavisuals:item/trim/leggings_diamond_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950270,
+   "model": "viavisuals:item/trim/leggings_diamond_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950272,
+   "model": "viavisuals:item/trim/leggings_netherite_amethyst"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950273,
+   "model": "viavisuals:item/trim/leggings_netherite_copper"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950274,
+   "model": "viavisuals:item/trim/leggings_netherite_diamond"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950275,
+   "model": "viavisuals:item/trim/leggings_netherite_emerald"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950276,
+   "model": "viavisuals:item/trim/leggings_netherite_gold"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950277,
+   "model": "viavisuals:item/trim/leggings_netherite_iron"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950278,
+   "model": "viavisuals:item/trim/leggings_netherite_lapis"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950279,
+   "model": "viavisuals:item/trim/leggings_netherite_netherite"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950280,
+   "model": "viavisuals:item/trim/leggings_netherite_quartz"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950281,
+   "model": "viavisuals:item/trim/leggings_netherite_redstone"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950282,
+   "model": "viavisuals:item/trim/leggings_netherite_resin"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950283,
+   "model": "viavisuals:item/trim/leggings_netherite_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950284,
+   "model": "viavisuals:item/trim/leggings_netherite_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950285,
+   "model": "viavisuals:item/trim/leggings_netherite_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950286,
+   "model": "viavisuals:item/trim/leggings_netherite_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950288,
+   "model": "viavisuals:item/trim/leggings_chainmail_amethyst"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950289,
+   "model": "viavisuals:item/trim/leggings_chainmail_copper"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950290,
+   "model": "viavisuals:item/trim/leggings_chainmail_diamond"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950291,
+   "model": "viavisuals:item/trim/leggings_chainmail_emerald"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950292,
+   "model": "viavisuals:item/trim/leggings_chainmail_gold"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950293,
+   "model": "viavisuals:item/trim/leggings_chainmail_iron"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950294,
+   "model": "viavisuals:item/trim/leggings_chainmail_lapis"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950295,
+   "model": "viavisuals:item/trim/leggings_chainmail_netherite"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950296,
+   "model": "viavisuals:item/trim/leggings_chainmail_quartz"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950297,
+   "model": "viavisuals:item/trim/leggings_chainmail_redstone"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950298,
+   "model": "viavisuals:item/trim/leggings_chainmail_resin"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950299,
+   "model": "viavisuals:item/trim/leggings_chainmail_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950300,
+   "model": "viavisuals:item/trim/leggings_chainmail_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950301,
+   "model": "viavisuals:item/trim/leggings_chainmail_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950302,
+   "model": "viavisuals:item/trim/leggings_chainmail_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950320,
+   "model": "viavisuals:item/trim/leggings_copper_amethyst"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950321,
+   "model": "viavisuals:item/trim/leggings_copper_copper"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950322,
+   "model": "viavisuals:item/trim/leggings_copper_diamond"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950323,
+   "model": "viavisuals:item/trim/leggings_copper_emerald"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950324,
+   "model": "viavisuals:item/trim/leggings_copper_gold"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950325,
+   "model": "viavisuals:item/trim/leggings_copper_iron"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950326,
+   "model": "viavisuals:item/trim/leggings_copper_lapis"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950327,
+   "model": "viavisuals:item/trim/leggings_copper_netherite"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950328,
+   "model": "viavisuals:item/trim/leggings_copper_quartz"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950329,
+   "model": "viavisuals:item/trim/leggings_copper_redstone"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950330,
+   "model": "viavisuals:item/trim/leggings_copper_resin"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950331,
+   "model": "viavisuals:item/trim/leggings_copper_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950332,
+   "model": "viavisuals:item/trim/leggings_copper_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950333,
+   "model": "viavisuals:item/trim/leggings_copper_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_LEGGINGS",
+   "cmd": 950334,
+   "model": "viavisuals:item/trim/leggings_copper_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950336,
+   "model": "viavisuals:item/trim/boots_iron_amethyst"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950337,
+   "model": "viavisuals:item/trim/boots_iron_copper"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950338,
+   "model": "viavisuals:item/trim/boots_iron_diamond"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950339,
+   "model": "viavisuals:item/trim/boots_iron_emerald"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950340,
+   "model": "viavisuals:item/trim/boots_iron_gold"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950341,
+   "model": "viavisuals:item/trim/boots_iron_iron"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950342,
+   "model": "viavisuals:item/trim/boots_iron_lapis"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950343,
+   "model": "viavisuals:item/trim/boots_iron_netherite"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950344,
+   "model": "viavisuals:item/trim/boots_iron_quartz"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950345,
+   "model": "viavisuals:item/trim/boots_iron_redstone"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950346,
+   "model": "viavisuals:item/trim/boots_iron_resin"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950347,
+   "model": "viavisuals:item/trim/boots_iron_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950348,
+   "model": "viavisuals:item/trim/boots_iron_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950349,
+   "model": "viavisuals:item/trim/boots_iron_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950350,
+   "model": "viavisuals:item/trim/boots_iron_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950352,
+   "model": "viavisuals:item/trim/boots_gold_amethyst"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950353,
+   "model": "viavisuals:item/trim/boots_gold_copper"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950354,
+   "model": "viavisuals:item/trim/boots_gold_diamond"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950355,
+   "model": "viavisuals:item/trim/boots_gold_emerald"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950356,
+   "model": "viavisuals:item/trim/boots_gold_gold"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950357,
+   "model": "viavisuals:item/trim/boots_gold_iron"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950358,
+   "model": "viavisuals:item/trim/boots_gold_lapis"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950359,
+   "model": "viavisuals:item/trim/boots_gold_netherite"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950360,
+   "model": "viavisuals:item/trim/boots_gold_quartz"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950361,
+   "model": "viavisuals:item/trim/boots_gold_redstone"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950362,
+   "model": "viavisuals:item/trim/boots_gold_resin"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950363,
+   "model": "viavisuals:item/trim/boots_gold_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950364,
+   "model": "viavisuals:item/trim/boots_gold_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950365,
+   "model": "viavisuals:item/trim/boots_gold_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950366,
+   "model": "viavisuals:item/trim/boots_gold_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950368,
+   "model": "viavisuals:item/trim/boots_diamond_amethyst"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950369,
+   "model": "viavisuals:item/trim/boots_diamond_copper"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950370,
+   "model": "viavisuals:item/trim/boots_diamond_diamond"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950371,
+   "model": "viavisuals:item/trim/boots_diamond_emerald"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950372,
+   "model": "viavisuals:item/trim/boots_diamond_gold"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950373,
+   "model": "viavisuals:item/trim/boots_diamond_iron"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950374,
+   "model": "viavisuals:item/trim/boots_diamond_lapis"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950375,
+   "model": "viavisuals:item/trim/boots_diamond_netherite"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950376,
+   "model": "viavisuals:item/trim/boots_diamond_quartz"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950377,
+   "model": "viavisuals:item/trim/boots_diamond_redstone"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950378,
+   "model": "viavisuals:item/trim/boots_diamond_resin"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950379,
+   "model": "viavisuals:item/trim/boots_diamond_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950380,
+   "model": "viavisuals:item/trim/boots_diamond_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950381,
+   "model": "viavisuals:item/trim/boots_diamond_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950382,
+   "model": "viavisuals:item/trim/boots_diamond_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950384,
+   "model": "viavisuals:item/trim/boots_netherite_amethyst"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950385,
+   "model": "viavisuals:item/trim/boots_netherite_copper"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950386,
+   "model": "viavisuals:item/trim/boots_netherite_diamond"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950387,
+   "model": "viavisuals:item/trim/boots_netherite_emerald"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950388,
+   "model": "viavisuals:item/trim/boots_netherite_gold"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950389,
+   "model": "viavisuals:item/trim/boots_netherite_iron"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950390,
+   "model": "viavisuals:item/trim/boots_netherite_lapis"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950391,
+   "model": "viavisuals:item/trim/boots_netherite_netherite"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950392,
+   "model": "viavisuals:item/trim/boots_netherite_quartz"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950393,
+   "model": "viavisuals:item/trim/boots_netherite_redstone"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950394,
+   "model": "viavisuals:item/trim/boots_netherite_resin"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950395,
+   "model": "viavisuals:item/trim/boots_netherite_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950396,
+   "model": "viavisuals:item/trim/boots_netherite_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950397,
+   "model": "viavisuals:item/trim/boots_netherite_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950398,
+   "model": "viavisuals:item/trim/boots_netherite_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950400,
+   "model": "viavisuals:item/trim/boots_chainmail_amethyst"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950401,
+   "model": "viavisuals:item/trim/boots_chainmail_copper"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950402,
+   "model": "viavisuals:item/trim/boots_chainmail_diamond"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950403,
+   "model": "viavisuals:item/trim/boots_chainmail_emerald"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950404,
+   "model": "viavisuals:item/trim/boots_chainmail_gold"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950405,
+   "model": "viavisuals:item/trim/boots_chainmail_iron"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950406,
+   "model": "viavisuals:item/trim/boots_chainmail_lapis"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950407,
+   "model": "viavisuals:item/trim/boots_chainmail_netherite"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950408,
+   "model": "viavisuals:item/trim/boots_chainmail_quartz"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950409,
+   "model": "viavisuals:item/trim/boots_chainmail_redstone"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950410,
+   "model": "viavisuals:item/trim/boots_chainmail_resin"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950411,
+   "model": "viavisuals:item/trim/boots_chainmail_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950412,
+   "model": "viavisuals:item/trim/boots_chainmail_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950413,
+   "model": "viavisuals:item/trim/boots_chainmail_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950414,
+   "model": "viavisuals:item/trim/boots_chainmail_netherite_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950432,
+   "model": "viavisuals:item/trim/boots_copper_amethyst"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950433,
+   "model": "viavisuals:item/trim/boots_copper_copper"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950434,
+   "model": "viavisuals:item/trim/boots_copper_diamond"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950435,
+   "model": "viavisuals:item/trim/boots_copper_emerald"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950436,
+   "model": "viavisuals:item/trim/boots_copper_gold"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950437,
+   "model": "viavisuals:item/trim/boots_copper_iron"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950438,
+   "model": "viavisuals:item/trim/boots_copper_lapis"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950439,
+   "model": "viavisuals:item/trim/boots_copper_netherite"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950440,
+   "model": "viavisuals:item/trim/boots_copper_quartz"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950441,
+   "model": "viavisuals:item/trim/boots_copper_redstone"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950442,
+   "model": "viavisuals:item/trim/boots_copper_resin"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950443,
+   "model": "viavisuals:item/trim/boots_copper_diamond_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950444,
+   "model": "viavisuals:item/trim/boots_copper_gold_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950445,
+   "model": "viavisuals:item/trim/boots_copper_iron_darker"
+  },
+  {
+   "proxy": "LEATHER_BOOTS",
+   "cmd": 950446,
+   "model": "viavisuals:item/trim/boots_copper_netherite_darker"
+  }
+ ]
+}

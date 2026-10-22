@@ -1,0 +1,86 @@
+plugins {
+    id 'java'
+    id 'com.gradleup.shadow' version '8.3.8'
+    id 'dev.bluesparksss.viavisuals.resource-pack'
+}
+
+group = 'dev.bluesparksss'
+version = '1.0.0-beta.1'
+
+// Semantic Versioning 2.0.0 (https://semver.org): 1.0.0-beta.2, 1.0.0-rc.1, 1.0.0, 1.1.0 ...
+def semVer = ~/^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
+if (!(version.toString() ==~ semVer)) {
+    throw new GradleException("version '${version}' is not a Semantic Version (MAJOR.MINOR.PATCH[-PRERELEASE][+BUILD])")
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+    maven { url = 'https://repo.viaversion.com' }
+    maven { url = 'https://repo.codemc.io/repository/maven-releases/' }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT'
+
+    compileOnly 'com.viaversion:viaversion-api:5.12.1'
+    compileOnly 'com.viaversion:viabackwards-common:5.12.1'
+
+    // Provided by the packetevents Bukkit plugin at runtime — do not shade/relocate it.
+    // Shading PE while also installing packetevents.jar injects two Netty handlers and breaks
+    // nested class loading after jar swaps (NoClassDefFoundError for $NBTWriter / bStats, etc.).
+    compileOnly 'com.github.retrooper:packetevents-spigot:2.14.0'
+    compileOnly 'com.google.code.gson:gson:2.11.0'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+processResources {
+    dependsOn tasks.named('assembleResourcePack')
+
+    from("${layout.buildDirectory.get()}/generated/resources") {
+        include 'entity-catalog.json', 'anim-catalog.json', 'anim/**'
+    }
+
+    filesMatching('plugin.yml') {
+        expand version: version
+    }
+
+    // Clients download the pack from the GitHub release in PackSource; the jar does not carry it.
+    def packSha1File = layout.buildDirectory.file('libs/ViaVisuals-resource-pack.zip.sha1')
+    def packSource = file('src/main/java/dev/bluesparksss/viavisuals/pack/PackSource.java')
+    doLast {
+        def built = packSha1File.get().asFile
+        def pinned = (packSource.text =~ /SHA1 = "([0-9a-f]{40})"/)
+        if (built.exists() && pinned.find() && built.text.trim().toLowerCase() != pinned.group(1)) {
+            logger.warn("WARNING: build/libs/ViaVisuals-resource-pack.zip (SHA-1 ${built.text.trim()}) is not the pack "
+                + "clients download (PackSource.SHA1 ${pinned.group(1)}). Upload the new zip to a GitHub release "
+                + "and put its URL and SHA-1 in PackSource.java.")
+        }
+    }
+}
+
+shadowJar {
+    archiveClassifier.set('')
+}
+
+tasks.jar {
+    enabled = false
+}
+
+tasks.assemble {
+    dependsOn tasks.shadowJar
+}
+
+tasks.build {
+    dependsOn tasks.shadowJar
+}

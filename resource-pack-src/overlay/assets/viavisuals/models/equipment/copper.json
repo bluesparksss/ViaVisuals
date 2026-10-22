@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "viavisuals:copper"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "viavisuals:copper"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+name: ViaVisuals
+version: '${version}'
+main: dev.bluesparksss.viavisuals.ViaVisualsPlugin
+api-version: '1.17'
+author: bluesparksss
+description: Visually and functionally backports newer items to older clients using CustomModelData.
+depend:
+  - ViaVersion
+  - packetevents
+softdepend:
+  - ViaBackwards
+  - ProtocolLib
+  - ProtocolSupport
+  - ViaRewind
+  - Geyser-Spigot
+commands:
+  viavisuals:
+    description: ViaVisuals administration and testing commands.
+    usage: |
+      /viavisuals reload
+      /viavisuals give <player> <item_id>
+      /viavisuals enchant <player> <enchantment> [level]
+      /viavisuals summon <entity_id> [amount]
+    aliases: [vv]
+permissions:
+  viavisuals.give:
+    description: Allows giving ViaVisuals custom items to players.
+    default: op
+  viavisuals.enchant:
+    description: Enchants held items using the server-side material.
+    default: op
+  viavisuals.summon:
+    description: Spawns ViaVisuals backported entities for testing.
+    default: op
+  viavisuals.reload:
+    description: Reloads ViaVisuals config.yml.
+    default: op

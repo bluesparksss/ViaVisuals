@@ -1,0 +1,25 @@
+ViaVisuals
+Copyright (C) 2026 bluesparksss
+
+The ViaVisuals source code is licensed under the GNU General Public License v3.0 (see LICENSE).
+
+Minecraft content
+-----------------
+Some files in this repository, and in the resource pack and plugin jar built from it, are derived from
+Minecraft. They are the property of Mojang AB and Microsoft and are NOT covered by the GPL:
+
+- resource-pack-src/vanilla-geometry, vanilla-posed, vanilla-rigs, vanilla-animations and
+  vanilla-blocks.json: model, animation and block data extracted from the Minecraft client.
+- resource-pack-src/block-pack.json and texture-history.json: data generated from Minecraft's
+  models, blockstates and textures.
+- resource-pack-src/overlay: textures generated from Minecraft textures (armor trims, leather armor
+  layers, emission maps, locator bar glyphs) and the armor shaders, which are adapted from
+  Minecraft's shaders.
+- Data generated from the above into the plugin jar (anim/, entity and animation catalogs, spear
+  animation frames in custom-items.json).
+- The built resource pack, which also contains unmodified Minecraft assets.
+
+No Minecraft files are stored in this repository otherwise: the build downloads the official
+client files from Mojang.
+
+NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.

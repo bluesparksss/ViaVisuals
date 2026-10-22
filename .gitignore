@@ -1,0 +1,48 @@
+# Gradle
+.gradle/
+build/
+buildSrc/.gradle/
+buildSrc/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code / Eclipse (Java language server output)
+.vscode/
+bin/
+.classpath
+.project
+.settings/
+.factorypath
+
+# Logs and JVM crash files
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Official Minecraft files downloaded by fetchVanillaAssets
+.vanilla-cache/
+
+# Local test servers and backups
+run/
+*test server*/
+*backup*/
+_backups/
+tools/
+cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
