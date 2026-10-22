@@ -1,20 +1,21 @@
 # Gradle
 .gradle/
-build/
+/build/
 buildSrc/.gradle/
 buildSrc/build/
-!gradle/wrapper/gradle-wrapper.jar
 
 # IntelliJ IDEA
 .idea/
 *.iml
 *.ipr
 *.iws
-out/
+/out/
+buildSrc/out/
 
 # VS Code / Eclipse (Java language server output)
 .vscode/
-bin/
+/bin/
+buildSrc/bin/
 .classpath
 .project
 .settings/
@@ -22,7 +23,7 @@ bin/
 
 # Logs and JVM crash files
 *.log
-logs/
+/logs/
 hs_err_pid*
 replay_pid*
 
@@ -35,12 +36,12 @@ __pycache__/
 .vanilla-cache/
 
 # Local test servers and backups
-run/
-*test server*/
-*backup*/
-_backups/
-tools/
-cache/
+/run/
+/*test server*/
+/*backup*/
+/_backups/
+/tools/
+/cache/
 
 # OS
 .DS_Store
