@@ -33,8 +33,8 @@ Server versions from 26.3 to 1.20.4 are supported.
 - New pearl physics fix
 - New world height and deepslate layer support (1.16)
 
-## Preformance
-Because of heavy culling for some blocks and just resource pack retextures, blocks don't really lag your game at all. Entities consist of multiple body parts with BetterModel, but are relatively optimized to not lag your client too much. These limbs also get replaced with just 1 model when they are far enough from you, causing even less preformance drops.
+## Performance
+Because of heavy culling for some blocks and just resource pack retextures, blocks don't really lag your game at all. Entities consist of multiple body parts with BetterModel, but are relatively optimized to not lag your client too much. These limbs also get replaced with just 1 model when they are far enough from you, causing even less performance drops.
 In 1.16, support for larger world sizes and deepslate layer was added, but can cause a lag spike while switching through layers. This will probably stay this way for now and is a known issue.
 
 ## Use of generative AI
