@@ -1,0 +1,55 @@
+name: Bug report
+description: Something isn't working as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting! Please fill in as much as you can, it makes fixing things a lot faster.
+  - type: input
+    id: server
+    attributes:
+      label: Server software and version
+      placeholder: e.g. Paper 26.3
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Client version
+      description: The Minecraft version of the player who sees the problem.
+      placeholder: e.g. 1.20.4
+    validations:
+      required: true
+  - type: input
+    id: plugins
+    attributes:
+      label: ViaVisuals, ViaVersion, ViaBackwards and PacketEvents versions
+      placeholder: e.g. ViaVisuals 1.0.0-beta.1, ViaVersion 5.x, ...
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect to happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Join with a 1.20.4 client
+        2. Spawn a ...
+        3. See ...
+  - type: textarea
+    id: logs
+    attributes:
+      label: Server log or error
+      description: Paste any errors from the console. For long logs, use a paste site like mclo.gs and link it.
+      render: text
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or videos
+      description: Drag and drop them here.
