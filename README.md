@@ -17,7 +17,7 @@ I am not affiliated with any of these projects, but please show them some love!
 Client versions from 26.3 to 1.16 are supported. More support might be added in the future, but the inexistence of interaction entities, attributes and display entities make it a lot more challenging.
 Currently 1.16.5-1.16 works, but looks visually less appealing with less smooth, laggier animations and worse rendering for blocks (most of this might get fixed in the future!)
 
-Server versions from 26.3 to 1.20.4 are supported.
+Server versions from 26.3 to 1.21.4 are supported.
 
 ## Features
 - Animated mob models on older clients
