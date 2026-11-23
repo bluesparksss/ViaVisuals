@@ -647,7 +647,7 @@ final class VanillaGeometry {
       if (near(list[0][0], list[1][0]) && near(list[2][0], list[3][0])
           && near(list[0][1], list[3][1]) && near(list[1][1], list[2][1])) {
         JsonObject face = new JsonObject();
-        face.add("uv", vec(list[0][0], list[0][1], list[2][0], list[2][1]));
+        face.add("uv", vec(clampUv(list[0][0]), clampUv(list[0][1]), clampUv(list[2][0]), clampUv(list[2][1])));
         if (k != 0) {
           face.addProperty("rotation", k * 90);
         }
@@ -745,6 +745,10 @@ final class VanillaGeometry {
       c[k] /= Math.max(1, n);
     }
     return c;
+  }
+
+  private static double clampUv(double val) {
+    return Math.max(0, Math.min(16, val));
   }
 
   static JsonArray vec(double... vals) {

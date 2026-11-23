@@ -1,5 +1,6 @@
 package dev.bluesparksss.viavisuals.build;
 
+import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -283,6 +284,37 @@ final class PackLint {
         String val = tex.getValue().getAsString();
         if (!val.startsWith("#")) {
           require(rel, "textures", val, ".png", modern);
+        }
+      }
+    }
+    if (model.has("elements")) {
+      for (JsonElement elem : model.getAsJsonArray("elements")) {
+        JsonObject faces = elem.getAsJsonObject().getAsJsonObject("faces");
+        if (faces == null) {
+          continue;
+        }
+        for (Map.Entry<String, JsonElement> face : faces.entrySet()) {
+          JsonArray uv = face.getValue().getAsJsonObject().getAsJsonArray("uv");
+          if (uv == null) {
+            JsonArray from = elem.getAsJsonObject().getAsJsonArray("from");
+            JsonArray to = elem.getAsJsonObject().getAsJsonArray("to");
+            uv = new JsonArray();
+            int[] axes = switch (face.getKey()) {
+              case "up", "down" -> new int[] {0, 2};
+              case "north", "south" -> new int[] {0, 1};
+              default -> new int[] {2, 1};
+            };
+            for (int axis : axes) {
+              uv.add(from.get(axis));
+              uv.add(to.get(axis));
+            }
+          }
+          for (JsonElement val : uv) {
+            if (val.getAsDouble() < 0 || val.getAsDouble() > 16) {
+              problems.add(rel + ": " + face.getKey() + " face uv " + uv + " outside 0..16 (26.2 fails the whole item)");
+              break;
+            }
+          }
         }
       }
     }

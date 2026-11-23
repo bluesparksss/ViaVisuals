@@ -375,11 +375,42 @@ final class BlockPackGenerator {
       JsonObject elem = el.getAsJsonObject();
       JsonArray from = elem.getAsJsonArray("from");
       JsonArray to = elem.getAsJsonArray("to");
+      JsonObject faces = elem.getAsJsonObject("faces");
+      if (faces != null) {
+        for (Map.Entry<String, JsonElement> face : faces.entrySet()) {
+          JsonObject fc = face.getValue().getAsJsonObject();
+          if (!fc.has("uv")) {
+            fc.add("uv", defaultUv(face.getKey(), from, to));
+          }
+        }
+      }
       for (int i = 0; i < 3; i++) {
         from.set(i, new com.google.gson.JsonPrimitive(Math.max(-16.0, from.get(i).getAsDouble() - INFLATE)));
         to.set(i, new com.google.gson.JsonPrimitive(Math.min(32.0, to.get(i).getAsDouble() + INFLATE)));
       }
     }
+  }
+
+  private static JsonArray defaultUv(String dir, JsonArray from, JsonArray to) {
+    double x0 = from.get(0).getAsDouble();
+    double y0 = from.get(1).getAsDouble();
+    double z0 = from.get(2).getAsDouble();
+    double x1 = to.get(0).getAsDouble();
+    double y1 = to.get(1).getAsDouble();
+    double z1 = to.get(2).getAsDouble();
+    double[] uv = switch (dir) {
+      case "down" -> new double[] {x0, 16 - z1, x1, 16 - z0};
+      case "up" -> new double[] {x0, z0, x1, z1};
+      case "north" -> new double[] {16 - x1, 16 - y1, 16 - x0, 16 - y0};
+      case "south" -> new double[] {x0, 16 - y1, x1, 16 - y0};
+      case "west" -> new double[] {z0, 16 - y1, z1, 16 - y0};
+      default -> new double[] {16 - z1, 16 - y1, 16 - z0, 16 - y0};
+    };
+    JsonArray out = new JsonArray();
+    for (double val : uv) {
+      out.add(Math.max(0, Math.min(16, val)));
+    }
+    return out;
   }
 
   private int carrierModels;
