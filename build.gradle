@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'dev.bluesparksss'
-version = '1.0.0-beta.1'
+version = '1.0.0-beta.2'
 
 // Semantic Versioning 2.0.0 (https://semver.org): 1.0.0-beta.2, 1.0.0-rc.1, 1.0.0, 1.1.0 ...
 def semVer = ~/^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
