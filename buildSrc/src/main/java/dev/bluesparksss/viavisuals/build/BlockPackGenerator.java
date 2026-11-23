@@ -147,6 +147,7 @@ final class BlockPackGenerator {
         vis = carrierVariant(carrier.getAsJsonObject());
       } else {
         vis = legacyVariant(legacy, st);
+        vis.addProperty("model", portableModel(vis.get("model").getAsString()));
       }
       StringBuilder key = new StringBuilder();
       for (Map.Entry<String, String> prop : st.entrySet()) {
@@ -163,6 +164,44 @@ final class BlockPackGenerator {
     Files.createDirectories(dst.getParent());
     Files.writeString(dst, GSON.toJson(root), StandardCharsets.UTF_8);
   }
+
+  /**
+   * A 1.16.5 model the main release no longer has (1.19.3 split door_bottom/_hinge into _left/_right/_open)
+   * is copied with its parents to viavisuals:legacy/, otherwise every 1.19.3+ client draws the missing model.
+   */
+  private String portableModel(String ref) throws IOException {
+    if (!"minecraft".equals(VanillaAssets.namespace(ref))) {
+      return ref;
+    }
+    String keyStr = VanillaAssets.path(ref);
+    if (keyStr.startsWith("builtin/") || assets.find("assets/minecraft/models/" + keyStr + ".json").isPresent()) {
+      return ref;
+    }
+    String target = VanillaAssets.NS + ":legacy/" + keyStr;
+    if (portedModels.add(keyStr)) {
+      Path src = legacyBlockstates.resolveSibling("models").resolve(keyStr + ".json");
+      if (!Files.exists(src)) {
+        throw new IOException("legacy model not found: " + ref);
+      }
+      JsonObject model = readJson(src);
+      if (model.has("parent")) {
+        model.addProperty("parent", portableModel(model.get("parent").getAsString()));
+      }
+      if (model.has("textures")) {
+        for (Map.Entry<String, JsonElement> tex : model.getAsJsonObject("textures").entrySet()) {
+          String val = tex.getValue().getAsString();
+          if (!val.startsWith("#")
+              && assets.find("assets/minecraft/textures/" + VanillaAssets.path(val) + ".png").isEmpty()) {
+            throw new IOException("legacy model " + ref + " uses texture " + val + " the main release lacks");
+          }
+        }
+      }
+      assets.writeModel(target, model);
+    }
+    return target;
+  }
+
+  private final java.util.Set<String> portedModels = new java.util.HashSet<>();
 
   /**
    * Vanilla blockstate with the listed variants drawn as nothing: those states carry a display model, which

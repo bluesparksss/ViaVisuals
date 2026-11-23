@@ -5,8 +5,8 @@ import java.util.Locale;
 
 public final class PackSource {
 
-  public static final String URL = "https://github.com/bluesparksss/ViaVisuals-Pack/releases/download/v1/ViaVisuals-resource-pack.zip";
-  public static final String SHA1 = "5dd376079889e05855df9edf31a613b362eb14de";
+  public static final String URL = "https://github.com/bluesparksss/ViaVisuals-Pack/releases/download/v2/ViaVisuals-resource-pack.zip";
+  public static final String SHA1 = "7b62aa26139dcb4fe9dfd04b899ca952bf0e587e";
 
   private PackSource() {
   }
