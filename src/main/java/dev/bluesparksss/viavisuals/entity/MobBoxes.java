@@ -144,7 +144,10 @@ public final class MobBoxes {
       if (player == null) {
         continue;
       }
-      boolean wantLiving = leashed || entity.equals(player.getVehicle());
+      // A ridden mob is swapped for its stand-in so the rider's seat height matches that mob. Non-living
+      // entities (cushions) keep their interaction box: its height is the entity's real height, so the
+      // rider sits on top of it instead of on a full-size stand-in.
+      boolean wantLiving = leashed || (entity instanceof LivingEntity && entity.equals(player.getVehicle()));
       Set<Integer> liv = set(living, viewer);
       if (wantLiving != liv.contains(entId)) {
         if (wantLiving) {

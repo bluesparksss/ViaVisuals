@@ -83,6 +83,8 @@ public final class EntityProxies extends PacketListenerAbstract implements Liste
   private static final int STAND_NO_GRAVITY = 5;
   private static final int STAND_FLAGS = 15;
   private static final byte STAND_NO_BASEPLATE = 0x08;
+  private static final byte STAND_MARKER = 0x10;
+  private static final String SEAT_ENTITY = "cushion";
   private static final double FULL_RATE_RANGE = 16.0;
   private static final int MID_RATE_TICKS = 2;
 
@@ -166,6 +168,7 @@ public final class EntityProxies extends PacketListenerAbstract implements Liste
   private final Map<UUID, Set<Integer>> riding = new ConcurrentHashMap<>();
   private final Map<UUID, Set<Integer>> retyped = new ConcurrentHashMap<>();
   private final Map<UUID, Set<Integer>> retypedPlain = new ConcurrentHashMap<>();
+  private final Map<UUID, Set<Integer>> seats = new ConcurrentHashMap<>();
   private final Map<Integer, Float> headYaws = new ConcurrentHashMap<>();
   private final MobBoxes boxes = new MobBoxes();
   private final NameTags names = new NameTags(
@@ -255,8 +258,12 @@ public final class EntityProxies extends PacketListenerAbstract implements Liste
             pkt.setEntityType(EntityTypes.INTERACTION);
             boxes.markBoxed(player.getUniqueId(), boxId);
             event.getTasksAfterSend().add(() -> ProxyEntities.sendOne(user, MobBoxes.sizeData(boxId, 0.6f, 1.8f)));
+            viewerSet(seats, player).remove(boxId);
           } else {
             pkt.setEntityType(fallback);
+            if (SEAT_ENTITY.equals(id)) {
+              viewerSet(seats, player).add(pkt.getEntityId());
+            }
           }
           event.markForReEncode(true);
           viewerSet(retyped, player).add(pkt.getEntityId());
@@ -318,6 +325,7 @@ public final class EntityProxies extends PacketListenerAbstract implements Liste
         viewerSet(riding, player).remove(id);
         viewerSet(retyped, player).remove(id);
         viewerSet(retypedPlain, player).remove(id);
+        viewerSet(seats, player).remove(id);
         boxes.remove(player.getUniqueId(), id);
         names.removeEntity(player.getUniqueId(), id);
         viewerAt(player).remove(id);
@@ -343,6 +351,7 @@ public final class EntityProxies extends PacketListenerAbstract implements Liste
       if (swapRiddenVehicle(event, pkt, player, client)) {
         return;
       }
+      seatMarker(event, pkt, player);
       List<Integer> ids = new ArrayList<>();
       boolean dirty = false;
       for (int pid : pkt.getPassengers()) {
@@ -546,6 +555,26 @@ public final class EntityProxies extends PacketListenerAbstract implements Liste
     return new WrapperPlayServerEntityMetadata(entId, List.of(
         new EntityData<>(INTERACTION_WIDTH, EntityDataTypes.FLOAT, BOAT_WIDTH),
         new EntityData<>(INTERACTION_HEIGHT, EntityDataTypes.FLOAT, BOAT_HEIGHT)));
+  }
+
+  /**
+   * A cushion shown as a plain armor stand (clients below 1.19.4, or hitbox-mode: living) would seat its rider on top of
+   * a full-size stand, about a block above the cushion. While the viewer sits on it the stand becomes a marker, whose
+   * seat point is at its feet, and goes back to a normal stand once the viewer gets off.
+   */
+  private void seatMarker(PacketSendEvent event, WrapperPlayServerSetPassengers pkt, Player player) {
+    int vehId = pkt.getEntityId();
+    if (!viewerSet(seats, player).contains(vehId)) {
+      return;
+    }
+    boolean aboard = false;
+    for (int pid : pkt.getPassengers()) {
+      aboard |= pid == player.getEntityId();
+    }
+    byte flags = aboard ? (byte) (STAND_NO_BASEPLATE | STAND_MARKER) : STAND_NO_BASEPLATE;
+    User user = event.getUser();
+    event.getTasksAfterSend().add(() -> ProxyEntities.sendOne(user, new WrapperPlayServerEntityMetadata(vehId,
+        List.of(new EntityData<>(STAND_FLAGS, EntityDataTypes.BYTE, flags)))));
   }
 
   private boolean swapRiddenVehicle(PacketSendEvent event, WrapperPlayServerSetPassengers pkt, Player player,
@@ -1308,6 +1337,7 @@ public final class EntityProxies extends PacketListenerAbstract implements Liste
     riding.remove(id);
     retyped.remove(id);
     retypedPlain.remove(id);
+    seats.remove(id);
     boxes.forget(id);
     names.forget(id, true);
     for (Tracked trk : tracked.values()) {
@@ -1324,6 +1354,7 @@ public final class EntityProxies extends PacketListenerAbstract implements Liste
     riding.remove(id);
     retyped.remove(id);
     retypedPlain.remove(id);
+    seats.remove(id);
     boxes.forget(id);
     names.forget(id, false);
     for (Tracked trk : tracked.values()) {
